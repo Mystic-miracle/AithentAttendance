@@ -79,34 +79,6 @@ public class AppUtils {
 		
 		
 	}
-	public static int loadtoMySQL(Row currentrow, Statement st, int temp, Sheet sheet,int fk_emp) throws SQLException{
 	
-	String daytype;
-	Cell cell=currentrow.getCell(temp, Row.MissingCellPolicy.CREATE_NULL_AS_BLANK);
-	String cellVal=cell.getStringCellValue();
-	if (cellVal.equalsIgnoreCase("F")) {
-		daytype="Full Day";							
-	}
-	else if (cellVal.equalsIgnoreCase("L")) {
-		daytype="Leave";						
-	}
-	else if (cellVal.equalsIgnoreCase("H")){
-		daytype="Half Day";
-	}
-	else if (cell.getStringCellValue().equals("")){
-		daytype="Blank";
-	}
-	else {
-		daytype="Invalid";
-	}
-
-	Cell dateCell=sheet.getRow(0).getCell(cell.getColumnIndex());
-	String datecellVal=dateCell.getStringCellValue();
-	System.out.println(datecellVal);
-	String date=AppUtils.date_maker(datecellVal);
-	st.execute("insert into employeeAttendance (FK_emp,date,day_type) values (\""+fk_emp+"\",\""+date+"\",\""+daytype+"\")");
-	temp++;
-	return temp;
-	} 
 
 }
