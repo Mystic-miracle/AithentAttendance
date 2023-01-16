@@ -16,7 +16,6 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 }
-
 .container {
 	width: 500rem;
 	height: 15rem;
@@ -27,7 +26,6 @@ img {
 	background: inherit;
 	overflow: hidden;
 }
-
 .container:before {
 	content: "";
 	position: absolute;
@@ -41,14 +39,12 @@ img {
 	filter: blur(30px);
 	margin: -20px;
 }
-
 .container {
 	color: beige;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
 		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	font-style: italic;
 }
-
 body {
 	margin: auto;
 	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
@@ -60,12 +56,10 @@ body {
 	background-size: 400% 400%;
 	background-attachment: fixed;
 }
-
 @
 keyframes gradient { 0% {
 	background-position: 0% 0%;
 }
-
 50
 %
 {
@@ -96,24 +90,20 @@ background-position
 	left: 0;
 	z-index: -1;
 }
-
 .wave:nth-of-type(2) {
 	bottom: -1.25em;
 	animation: wave 18s linear reverse infinite;
 	opacity: 0.8;
 }
-
 .wave:nth-of-type(3) {
 	bottom: -2.5em;
 	animation: wave 20s -1s reverse infinite;
 	opacity: 0.9;
 }
-
 @
 keyframes wave { 2% {
 	transform: translateX(1);
 }
-
 25
 %
 {
@@ -155,14 +145,12 @@ div {
 	font-size: large;
 	align-content: center;
 }
-
 .contained {
 	position: fixed;
 	bottom: 70px;
 	left: 50%;
 	transform: translateX(-50%);
 }
-
 button:hover {
 	background-color: #a5d8ff;
 }
