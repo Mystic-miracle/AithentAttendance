@@ -21,12 +21,10 @@
     border-collapse: collapse; /* Remove the default border */
     width: 100%; /* Set the width of the table to 100% */
 }
-
 #Name th, #Name td {
     border: 2px solid #ddd; /* Add a border to the table cells */
     padding: 8px; /* Add padding to the cells */
 }
-
 #Name th {
     background-color: #f2f2f2; /* Add a background color to the header cells */
     text-align: center; /* Align the text in the header cells to the left */
@@ -77,14 +75,20 @@ ResultSet resultSet = null;
     <table id="Name">
 
     <thead>
-        <th class="filter-th">NAME</th>
+       <th class="filter-th">NAME</th>
         <th class="filter-th">DATE</th>
+        <th class="filter-th">MONTH </th>
+        <th class="filter-th">YEAR</th>
+        <th class="filter-th">DAY</th>
         <th class="filter-th">DAY TYPE</th>
     </thead>
     <thead>
         <tr>
             <th><input type="text" placeholder="Filter NAME" id="nameFilter"></th>
-            <th><input type="text" placeholder="Filter DATE" id="dateFilter"></th>
+            <th><input type="text" placeholder="Filter DATE" id="dateFilter"></th>           
+            <th><input type="text" placeholder="Filter Month TYPE" id="monthFilter"></th>
+            <th><input type="text" placeholder="Filter Year TYPE" id="yearFilter"></th>
+            <th><input type="text" placeholder="Filter Day of Week TYPE" id="WeekdayFilter"></th>
             <th><input type="text" placeholder="Filter DAY TYPE" id="dayFilter"></th>
         </tr>
     </thead>
@@ -93,7 +97,7 @@ ResultSet resultSet = null;
 try{
 connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/aithent","root", "mysql");
 statement=connection.createStatement();
-String sql ="select employeedetails.name ,employeeattendance.date, employeeattendance.day_type from employeeattendance,employeedetails where FK_emp=PK_emp;";
+String sql ="select employeedetails.name ,employeeattendance.date,monthname(employeeattendance.date) as Month,Year(employeeattendance.date) as Year, DayName(employeeattendance.date) as day, employeeattendance.day_type  from employeeattendance,employeedetails where FK_emp=PK_emp;";
 resultSet = statement.executeQuery(sql);
 while(resultSet.next()){
 %>
@@ -101,6 +105,9 @@ while(resultSet.next()){
         <tr>
 <td><%=resultSet.getString("name") %></td>
 <td><%=resultSet.getString("date") %></td>
+<td><%=resultSet.getString("month") %></td>
+<td><%=resultSet.getString("year") %></td>
+<td><%=resultSet.getString("day") %></td>
 <td><%=resultSet.getString("day_type") %></td>
         
 </tr>
@@ -124,17 +131,23 @@ $(document).ready(function () {
 <script type="text/javascript">
     $(document).ready(function(){
         var table = $('#Name').DataTable();
-
         $("#nameFilter").on("keyup", function() {
             table.column(0).search(this.value).draw();
         });
-
         $("#dateFilter").on("keyup", function() {
             table.column(1).search(this.value).draw();
         });
-
-        $("#dayFilter").on("keyup", function() {
+        $("#monthFilter").on("keyup", function() {
             table.column(2).search(this.value).draw();
+        });
+        $("#yearFilter").on("keyup", function() {
+            table.column(3).search(this.value).draw();
+        });
+        $("#WeekdayFilter").on("keyup", function() {
+            table.column(4).search(this.value).draw();
+        });
+        $("#dayFilter").on("keyup", function() {
+            table.column(5).search(this.value).draw();
         });
     });
 </script>
