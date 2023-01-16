@@ -190,17 +190,15 @@ button:hover {
 		<div class="wave"></div>
 		<div class="wave"></div>
 		<div class="wave"></div>
-		
 		 <div class="contained">
-		 <p align="center">
-    <button type="button" class="btn btn-Dark">Browse File</button></p>
-      <form action="Upload" method="post" enctype = "multipart/form-data" name="form">
-         <p align="center"><input type="file" id="myFile" name="filename"></p>
+    <button type="button" class="btn btn-Dark">Browse File</button>
+      <form action="DataCollect" method="post"  name="form">
+<!--         <input type="file" id="myFile" name="filename"> -->
    
       <div class="input-group input-group-sm mb-3">
-<!--         <div class="input-group-text" id="btnGroupAddon-sizing-sm">Sheet no.</div> -->
-<!--         <input type="number" name="sheetnumber" min="1" value="1" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"> -->
-        <input type="submit" style="position:absolute;top: 5px;left: 125px;">
+        <div class="input-group-text" id="btnGroupAddon-sizing-sm">Sheet no.</div>
+        <input type="number" name="sheetnumber" min="1" value="1" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+        <input type="submit" style="position:absolute;top: 55px;left: 125px;">
            </form>
       </div>
 </div>
