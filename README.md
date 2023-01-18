@@ -34,4 +34,5 @@ Tech stack:
 <img src="https://github.com/devicons/devicon/blob/master/icons/jquery/jquery-plain-wordmark.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
 <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
 <img src="https://github.com/devicons/devicon/blob/master/icons/tomcat/tomcat-original-wordmark.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
-<img src="https://maven.apache.org/images/maven-logo-white-on-black.svg" title="Java" alt="Java" width="60" height="40"/>&nbsp;
+<img src="https://maven.apache.org/images/maven-logo-white-on-black.svg" title="Java" alt="Java" width="80" height="40"/>&nbsp;
+<img src="D:\LMAo\eclipse-ide-logo\Eclipse-IDE\Eclipse2014_RGB.png" title="Java" alt="Java" width="80" height="40"/>&nbsp;
