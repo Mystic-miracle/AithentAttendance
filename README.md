@@ -34,4 +34,4 @@ Tech stack:
 <img src="https://github.com/devicons/devicon/tree/master/icons/jqueryg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
 <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
 <img src="https://github.com/devicons/devicon/blob/master/icons/tomcat/tomcat-original-wordmark.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
-<img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fassets.stickpng.com%2Fthumbs%2F62a78cdae42d729d928b174f.png&imgrefurl=https%3A%2F%2Fwww.stickpng.com%2Fimg%2Ficons-logos-emojis%2Ftech-companies%2Fapache-maven-logo&tbnid=WTSFVV11e2f7cM&vet=12ahUKEwj01e-m69D8AhUQjtgFHSeDDrMQMygBegUIARDBAQ..i&docid=mQpKrtId-p_6JM&w=300&h=300&q=apache%20maven%20icon&ved=2ahUKEwj01e-m69D8AhUQjtgFHSeDDrMQMygBegUIARDBAQ" title="Java" alt="Java" width="40" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/issues/430" title="Java" alt="Java" width="40" height="40"/>&nbsp;
