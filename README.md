@@ -36,3 +36,16 @@ Tech stack:
 <img src="https://github.com/devicons/devicon/blob/master/icons/tomcat/tomcat-original-wordmark.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
 <img src="https://maven.apache.org/images/maven-logo-white-on-black.svg" title="Java" alt="Java" width="80" height="40"/>&nbsp;
 <a href="https://ibb.co/HzcqrWk"><img src="https://i.ibb.co/1qCT9Dw/Eclipse2014-RGB.png" alt="Eclipse2014-RGB" border="0" title="Java" alt="Java" width="80" height="40"/></a>&nbsp;
+
+
+
+DEMO SCREENSHOTS:
+<img src="C:\Users\khuha\OneDrive\Pictures\Screenshots\2023-01-17 (1).png">&nbsp;
+<img src="C:\Users\khuha\OneDrive\Pictures\Screenshots\2023-01-17 (2).png">&nbsp;
+<img src="C:\Users\khuha\OneDrive\Pictures\Screenshots\2023-01-17 (3).png">&nbsp;
+<img src="C:\Users\khuha\OneDrive\Pictures\Screenshots\2023-01-17 (4).png">&nbsp;
+
+Database for bussiness analytics:
+<img src="C:\Users\khuha\OneDrive\Pictures\Screenshots\2023-01-18 (2).png">&nbsp;
+
+
