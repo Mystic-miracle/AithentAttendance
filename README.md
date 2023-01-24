@@ -40,13 +40,17 @@ Tech stack:
 
 
 DEMO SCREENSHOTS:
-(2023-01-17 (1).png)&nbsp;
-(2023-01-17 (2).png)&nbsp;
-(2023-01-17 (3).png)&nbsp;
-(2023-01-17 (4).png)&nbsp;
+![2023-01-17 (1)](https://user-images.githubusercontent.com/77057510/214376252-8aae24b3-21e7-4730-90d6-c2672fa094e6.png)
+![2023-01-17 (2)](https://user-images.githubusercontent.com/77057510/214376299-24f656fc-eefe-461b-9c00-4a30ac63cab8.png)
+![2023-01-17 (3)](https://user-images.githubusercontent.com/77057510/214376443-cb050dca-a40c-416d-9c25-c1d26ec63511.png)
+![2023-01-17 (4)](https://user-images.githubusercontent.com/77057510/214376462-27259782-d9ba-447c-896b-b869d00c7ad1.png)
+![2023-01-17](https://user-images.githubusercontent.com/77057510/214376470-4033731a-ffb0-4fce-b704-454656a4078f.png)
+
 
 
 Database for bussiness analytics:
-<img src="C:\Users\khuha\OneDrive\Pictures\Screenshots\2023-01-18 (2).png">&nbsp;
+
+
+![2023-01-18 (3)](https://user-images.githubusercontent.com/77057510/214376543-c31c3e5d-e0c9-4fbe-a542-f46e1b04642a.png)
 
 
