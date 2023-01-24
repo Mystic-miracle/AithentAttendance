@@ -40,10 +40,10 @@ Tech stack:
 
 
 DEMO SCREENSHOTS:
-(/2023-01-17 (1).png?raw=true)&nbsp;
-(C:/Users/khuha/OneDrive/Pictures/Screenshots/2023-01-17 (2).png?raw=true)&nbsp;
-(C:/Users/khuha/OneDrive/Pictures/Screenshots/2023-01-17 (3).png?raw=true)&nbsp;
-(C:/Users/khuha/OneDrive/Pictures/Screenshots/2023-01-17 (4).png?raw=true)&nbsp;
+(2023-01-17 (1).png)&nbsp;
+(2023-01-17 (2).png)&nbsp;
+(2023-01-17 (3).png)&nbsp;
+(2023-01-17 (4).png)&nbsp;
 
 
 Database for bussiness analytics:
